@@ -15,13 +15,21 @@
 
 /* #NiceAndSimple: Main - margin:auto */
 
+.a {
+  height: 10vh;
+}
+
 .p {
   padding-left: 780px;
   
 }
 
+h4 {
+  font-size: larger;  
+}
+
 a {
-  color: #00CED1;
+  color: #080113;
   transition: all 0.2s;
 }
 

@@ -17,10 +17,10 @@ function GatlingMarketplace({ Component, pageProps }) {
   getData();
 
   return (
-    <div>
+    <div className="a">
       <nav className="border-b p-6" style={{ backgroundColor: "#b91c1c" }}>
         <p className="p">Account : {data}</p>
-        <p className="text-4x1 font-bold text-black">Gatling Marketplace</p>
+        <h4 className="text-4x1 text-left top-1 font-bold text-black">Gatling Marketplace</h4>
         <div className="flex mt-4 justify-center">
           <Link href="/">
             <a className="mr-4">Main Marketplace</a>
@@ -29,7 +29,7 @@ function GatlingMarketplace({ Component, pageProps }) {
             <a className="mr-6">Mint Tokens</a>
           </Link>
           <Link href="/my-nfts">
-            <a className="mr-6">My NFts</a>
+            <a className="mr-6">My NFTs</a>
           </Link>
           <Link href="/account-dashboard">
             <a className="mr-6">Account Dashboard</a>
